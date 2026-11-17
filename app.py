@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from flask import Flask, send_from_directory
 from app.config.database import init_db
