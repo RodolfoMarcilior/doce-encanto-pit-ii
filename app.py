@@ -17,5 +17,6 @@ def not_found(_error):
     return {'error': 'Rota não encontrada.'}, 404
 
 if __name__ == '__main__':
-    print('Doce Encanto disponível em http://localhost:3000')
-    app.run(host='127.0.0.1', port=3000, debug=False)
+    port = int(os.environ.get('PORT', 3000))
+    print(f'Doce Encanto disponível na porta {port}')
+    app.run(host='0.0.0.0', port=port, debug=False)
