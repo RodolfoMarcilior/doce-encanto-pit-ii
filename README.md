@@ -71,9 +71,8 @@ INICIAR_NO_WINDOWS.bat
 data/ (banco criado automaticamente)
 docs/
 ```
+## Observações
+O sistema é um protótipo acadêmico de uma loja virtual de cupcakes. Os pedidos são registrados no banco de dados para atendimento posterior. As formas de pagamento disponíveis são apenas opções de escolha, sem processamento de pagamentos reais.
 
-## Limitações conhecidas
-Protótipo acadêmico funcional. Não possui autenticação de administrador, painel de gestão, integração real com gateway de pagamento, cálculo de frete ou serviço de entrega. O pedido fica registrado no banco para atendimento posterior, incluindo a forma de pagamento escolhida e o status inicial 'Recebido'. A seleção de Pix, dinheiro ou cartão é apenas informativa: não há cobrança, confirmação bancária, cálculo de frete nem rastreamento de entrega. Não inserir dados pessoais reais em demonstrações públicas.
 
-## GitHub e entrega
-Mantenha documentação e código no repositório Git solicitado pela disciplina. Não publique arquivos de banco (`*.db`), ambientes virtuais ou dados pessoais. Inclua as evidências dos testes, o formulário/relatórios dos cinco avaliadores e o vídeo de demonstração de até cinco minutos conforme as orientações da atividade.
+
